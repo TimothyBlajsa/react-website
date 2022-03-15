@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.recipe{
+	border-radius: none;
+	box-shadow: -15px -15px 15px rgba(225,225,225,.2), 15px 15px 15px rgba(0,0,0,.1);
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	background: white;
+	align-items: center;
+	min-width: 50%;
+	font-family: 'Lato';
+	position: relative;
+}
+
+.recipe{
+	max-width:450px;
+}
+
+.image{
+	border-radius: 10px;
+	margin:0px 0px 20px 0px;
+}
+
+h1 {
+	border-bottom: .5px solid black;
+}
+
+.banner {
+	object-fit: cover;
+}
+
+.recipeDetails {
+	font-size: 2rem;
+	color:white;
+	background: olive;
+	height:3rem;
+	border-radius:none;
+	width:100%;
+	padding:.25rem;
+	border:none;
+}
+
+.recipeDetails:hover {
+	background: darkolivegreen;
+	transition: 1s;
+}
+
+.ingredientList li {
+	font-size: 1rem;
+	
+}
+
+.ingredientText {
+	font-size:1.5rem;
+}
+
+.calorieText {
+	font-size:1rem;
+}
+
+.RecipeButton {
+	padding:1.5rem;
+}
+
+.StarBox {
+	margin: .5rem;
+}

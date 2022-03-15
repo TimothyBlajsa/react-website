@@ -7,22 +7,22 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavMenu>
-                    <NavLink to="" activeStyle>
+                    <NavLink to="" activestyle>
                         Home
                     </NavLink>
-                    <NavLink to="/about" activeStyle>
+                    <NavLink to="/about" activestyle={true}>
                         About
                     </NavLink>
-                    <NavLink to="/contact" activeStyle>
+                    <NavLink to="/contact" activestyle="true">
                         Contact Us
                     </NavLink>
-                    <NavLink to="/Blogs" activeStyle>
+                    <NavLink to="/Blogs" activestyle="true">
                         Blogs
                     </NavLink>
-                    <NavLink to="/signup" activeStyle>
+                    <NavLink to="/signup" activestyle="true">
                         Sign Up
                     </NavLink>
-                    <NavLink to="/recipes" activeStyle>
+                    <NavLink to="/recipes" activestyle="true">
                         Recipes
                     </NavLink>
                 </NavMenu>
