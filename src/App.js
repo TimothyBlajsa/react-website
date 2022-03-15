@@ -10,6 +10,7 @@ import Contact from "./pages/contact";
 
 function App() {
   return (
+    <>
     <Router>
       <Navbar />
       <Routes>
@@ -20,6 +21,8 @@ function App() {
         <Route path='/signup' element={<SignUp />} />
       </Routes>
     </Router>
+    <h1>Hello</h1>
+    </>
   );
 };
 
